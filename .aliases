@@ -1,0 +1,14 @@
+#!/bin/bash
+# Aliases
+alias ll="ls -al" # List all files in current directory in long list format
+alias ls='ls -G'
+alias o='open .' # Open the current directory in Finder
+alias cls=clear
+alias npm-exec='PATH=$(npm bin):$PATH'
+alias awslogin='docker run -ti -v ~/.aws:/root/.aws --rm samlapi'
+alias assume='docker run -ti -v ~/.aws:/root/.aws --rm assume $(op get totp ff6qpv4vt5beniehsiepjkqgzy)'
+alias oplogin='eval $(op signin my)'
+alias awsurl='python3 /Users/travis.m.smith/projects/personal/getURL.py'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."

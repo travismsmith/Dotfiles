@@ -1,0 +1,22 @@
+#!/bin/bash
+
+export EDITOR=/usr/bin/vim;
+export TERMINAL="iterm2";
+
+export HISTSIZE=50000000;
+export HISTFILESIZE=$HISTSIZE;
+export HISTCONTROL=ignoredups;
+export HISTIGNORE=" *:ls:cd:cd -:pwd:exit:date:* --help:* -h";
+
+# Prefer US English and use UTF-8
+export LANG="en_US.UTF-8";
+export LC_ALL="en_US.UTF-8";
+
+# Set Path Variable
+export PATH="/usr/local/sbin:$PATH";
+export PATH="/usr/local/Cellar/git/2.22.0_1/bin:$PATH"; # make sure installed git is used, not default git
+export PATH="~/bin:$PATH";
+
+export CDPATH=~;
+
+export NVM_DIR="$HOME/.nvm";
