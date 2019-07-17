@@ -5,8 +5,8 @@ export TERMINAL="iterm2";
 
 export HISTSIZE=50000000;
 export HISTFILESIZE=$HISTSIZE;
-export HISTCONTROL=ignoredups;
-export HISTIGNORE=" *:ls:cd:cd -:pwd:exit:date:* --help:* -h";
+export HISTCONTROL=ignoreboth:erasedups;
+export HISTIGNORE=" *:ls:cd:cd -:pwd:exit:date:* --help:* -h:ll:history*";
 
 # Prefer US English and use UTF-8
 export LANG="en_US.UTF-8";

@@ -12,3 +12,4 @@ alias awsurl='python3 /Users/travis.m.smith/projects/personal/getURL.py'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias pushKey="KEY=$(ssh-add -L) bash -c 'aws ec2 import-key-pair --key-name travis.m.smith --public-key-material \"$KEY\"'"
